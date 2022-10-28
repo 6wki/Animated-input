@@ -51,6 +51,6 @@ input:not(:placeholder-shown) ~ label {
     background-color: #2575fc;
 }
 
-input:not(:placeholder-shown), input:not(:focus) ~ input, input:focus {
+input:not(:placeholder-shown), input:not(:focus) ~ input {
     border: #6a11cb solid 1px;
 }
