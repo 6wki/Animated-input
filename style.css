@@ -37,7 +37,7 @@ input {
 label {
     position: absolute;
     left: 10px;
-    top: 10px;
+    top: 12px;
     padding: 0 5px;
     transition: 0.5s;
     color: #fff;
@@ -51,6 +51,6 @@ input:not(:placeholder-shown) ~ label {
     background-color: #2575fc;
 }
 
-input:not(:placeholder-shown), input:not(:focus) ~ input {
+input:not(:placeholder-shown), input:not(:focus) ~ input, input:focus {
     border: #6a11cb solid 1px;
 }
